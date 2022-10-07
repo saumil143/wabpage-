@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>online shopping site</title>
+    <style>
+        .sliderImg {
+            width: 100%;
+            height: 450px;
+        }
+
+        .cardImg {
+            width: 100%;
+            height: 150px;
+        }
+
+        .space1 {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="background-color: #333 solid;">AJIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">mobile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">computer & laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">accessories</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalR">about</a>
+                    </li>
+
+                    <!-- Login model start -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Login User</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row mb-3">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="inputEmail3">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="inputPassword3">
+                                            </div>
+                                        </div>
+                                       
+                                        </fieldset>
+                                        <div class="row mb-3">
+                                            <div class="col-sm-10 offset-sm-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                    <label class="form-check-label" for="gridCheck1">
+                                                       check in
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- model end -->
+
+                    <!-- Register model start -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalR" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">About AJIO</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga mollitia veritatis molestiae, itaque nisi tempora quibusdam impedit cumque ex architecto assumenda atque asperiores quis. Ducimus necessitatibus, ab aspernatur illo fugiat cumque unde corrupti suscipit accusamus excepturi facere saepe aut omnis. Harum temporibus inventore illum alias, commodi maxime facilis accusamus distinctio deserunt excepturi necessitatibus labore velit ipsum reprehenderit, magni dignissimos officiis? Quisquam, earum! Ab explicabo vel dolorum, iure fugit magni dolor, reiciendis optio eveniet ducimus qui distinctio consequatur cupiditate corrupti aut et quae eligendi modi facere commodi praesentium aliquid! Assumenda reiciendis eligendi quasi aut rerum enim hic magni corporis, ipsam odio iste nulla animi dolorum praesentium et repellendus provident veritatis voluptatem, ad ab nobis voluptate optio impedit consequuntur. Recusandae blanditiis iste, exercitationem, illum delectus earum soluta, neque assumenda libero numquam rerum officia maiores magni labore! Veniam voluptas, voluptatibus amet autem quisquam officia rem minima ea, facere minus, asperiores deleniti quia. Alias, laborum. Quasi impedit, nostrum fugiat numquam assumenda iusto dolor odio quia laboriosam soluta voluptates, nesciunt dolore doloribus ullam possimus alias, aliquam cum accusamus explicabo error molestias mollitia quis dolorum! Soluta maiores vitae neque necessitatibus quia cupiditate mollitia expedita officia facere! Illo doloremque fugiat magnam aperiam, sed repellat ipsa expedita alias laboriosam dolores amet minima commodi ullam, quia incidunt obcaecati quo enim possimus nisi nesciunt eius in debitis? Nulla suscipit aliquam ipsa, repellat, voluptate aut nihil similique ex, amet nesciunt sapiente autem rem aborum doloribus reiciendis ut dolor exercitationem saepe vel! Ullam necessitatibus eaque ipsa ipsam! Autem, sed eligendi a voluptas quas aliquid ipsa. Ex sint doloremque aspernatur non velit sunt et nemo excepturi nihil, laudantium optio nesciunt, assumenda suscipit blanditiis doloribus illum. Doloribus cupiditate nulla harum voluptas quam est earum animi eos? Iure, ad alias quae exercitationem, corporis doloribus illo officia vero nihil expedita assumenda impedit ut debitis rerum ipsum dolor totam voluptatibus harum? Nesciunt voluptates cum ipsum amet, porro numquam ratione maiores officiis. Rem illo adipisci, eius qui odit facere dolor quod. Maiores, magnam? Hic voluptatum quibusdam rem eum nam aspernatur vel quis numquam vero ut. Itaque vitae nemo officiis provident, dolore doloremque cumque expedita magni consequuntur officia voluptas ratione voluptatem molestiae nam, exercitationem laudantium eius doloribus repellat vero! Consectetur sed deserunt, eveniet asperiores debitis nam. Libero temporibus quas ut, ducimus error nemo rerum eos omnis esse. Error non ut pariatur voluptatum accusamus aspernatur, dolore temporibus animi explicabo quidem eaque aliquam quo, dolorum, consectetur dicta. Alias voluptatem neque cum.</span>
+                                        </div>
+                                      
+                                
+                                    </form></ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav><br>
+    <!-- Nav end -->
+
+    <!-- Slider start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\saumil\Downloads\mobile.jpg" class="d-block w-100 sliderImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\saumil\Downloads\dda.jpg" class="d-block w-100 sliderImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\saumil\Downloads\acc.jpg" class="d-block w-100 sliderImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Slider end -->
+
+    <div class="container">
+
+        <!-- first -->
+        <div class="row space1">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\saumil\Downloads\iphone.jpg" class="card-img-top cardImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">mobile</h5>
+                        <p class="card-text">These mobiles are priced anywhere between Rs 500 to Rs 100,000. Top mobile brands like Samsung, Oppo, Vivo, Apple and many more are available here under ...</p>
+                        <a href="#" class="btn btn-primary">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\saumil\Downloads\dell.jpg" class="card-img-top cardImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">laptop</h5>
+                        <p class="card-text">Get the best Laptops Online from Reliance Digital. Shop from top Laptop Brands like Apple, HP, Lenovo, Microsoft, Dell, iBall & more.</p>
+                        <a href="#" class="btn btn-primary">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\saumil\Downloads\ax.jpg" class="card-img-top cardImg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">accessories</h5>
+                        <p class="card-text">Mobile & Laptop Accessories online: Buy mobile, laptop accessories, storage devices, cameras, smart gadgets, headphones from different brands ...</p>
+                        <a href="#" class="btn btn-primary">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Form start -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                mobile
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                laptop & computer
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                mobile accessories
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                laptop & computer acc
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <form class="row g-3">
+                    <h1 class="main_heading" style="text-align:center ;"  >Register</h1>
+                    <div class="col-md-6">
+                        <label for="validationDefault01" class="form-label" >First name</label>
+                        <input type="text" class="form-control" id="validationDefault01"  required placeholder="first name ">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefault02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationDefault02" size="35px" required placeholder="last name ">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefaultUsername" class="form-label">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                            <input type="email" class="form-control" id="validationDefaultUsername"
+                                aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefault03" class="form-label">password</label>
+                        <input type="password" class="form-control" id="validationDefault03" placeholder="create password" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefault04" class="form-label">State</label>
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Gujarat</option>
+                            <option>Rajesthan</option>
+                            <option>Madhyapradesh</option>
+                            <option>Hariyana</option>
+                            <option>Panjab</option>
+                        </select>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row g-3">
+                        <label for="validationDefault05" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="validationDefault05" required placeholder="complete address">
+                    </div>
+                </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                Agree to terms and conditions
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- FAQ Form end -->
+
+    </div>
+    <br><br><br><br><br>
+
+    
+</body>
+
+</html> 
